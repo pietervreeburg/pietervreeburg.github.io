@@ -1,0 +1,26 @@
+/* element */
+p {
+    color: green;
+}
+
+/* class */
+.class_name {
+    color: green;
+}
+
+/* id */
+#id_name {
+    color: green;
+}
+
+/* pseudo class */
+a:hover {
+    font-size: 40px;
+}
+
+/* attribute selector, select only elements where this attribute is selected */
+img[src] {
+    border: 2 solid black
+}
+
+/* margin collapse: als 2 margins elkaar overlappen wordt de kleinste opgeheven */
